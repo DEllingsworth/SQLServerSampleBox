@@ -1,0 +1,10 @@
+[
+    {
+        "name": "AdventureWorks",
+        "url": "https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak"
+    },
+    {
+        "name": "WideWorldImporters",
+        "url": "https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak"
+    }
+]

@@ -1,0 +1,14 @@
+version: '3.9'  # Updated to a more recent version
+
+services:
+  sqlserver:
+    build:
+      context: .
+    container_name: sqlserver-sample
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourStrong@Passw0rd"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - ./backups:/var/opt/mssql/backup
